@@ -1,1 +1,2 @@
-# carlosgutierrez.github.io
+# Info
+This is the source code to Carlos Gutiérrez's [public academic site](https://carlosgual.github.io/). The theme (Grayscale) comes from [Start Bootstrap](https://startbootstrap.com/theme/grayscale). Just cloned it and customized it a little bit to meet my requirements :P. Feel free to clone this and use it for your own website, but I would really appreciate if you attribute the source to the original website or this repo.
