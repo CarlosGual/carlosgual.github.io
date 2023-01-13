@@ -7955,7 +7955,7 @@ textarea.form-control-lg {
 
 .text-white-50 {
   --bs-text-opacity: 1;
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgba(255, 255, 255, 0.9) !important;
 }
 
 .text-reset {
@@ -11558,7 +11558,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/NYC_skyline3.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/bg-signup.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11631,12 +11631,14 @@ body {
 }
 
 .about-section {
-  background: url("../assets/img/guto.png");
-
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)),
+    url("../assets/img/guto.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-blend-mode: saturation;
 }
 
 .about-section p {
@@ -11644,7 +11646,7 @@ body {
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 5rem 0 10rem 0;
 }
 .projects-section .featured-text {
   padding: 2rem;
@@ -11729,3 +11731,26 @@ body {
 .footer {
   padding: 5rem 0;
 }
+
+.network-icon {
+  margin-top: 1rem;
+}
+
+.big-icon {
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+ul.network-icon {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 1rem;
+  margin: 0;
+}
+
+
+
+
