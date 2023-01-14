@@ -11659,12 +11659,12 @@ body {
   }
 }
 .projects-section .project-text {
-  padding: 3rem;
+  padding: 2.5rem;
   font-size: 90%;
 }
 @media (min-width: 992px) {
   .projects-section .project-text {
-    padding: 5rem;
+    padding: 2.5rem;
   }
   .projects-section .project-text hr {
     border-color: #64a19d;
@@ -11752,6 +11752,12 @@ ul.network-icon {
   margin: 0;
 }
 
+.fill {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../assets/img/applsci2022-nasri.png');
+}
 
 
 
